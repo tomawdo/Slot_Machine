@@ -1,4 +1,6 @@
 import random
+from http.cookiejar import uppercase_escaped_char
+
 from icecream import ic
 
 NR_MAX_QUOTE = 3
@@ -124,7 +126,7 @@ def main():
     balance = deposit()
     while True:
         print(f"Il tuo saldo: €{balance}")
-        answer = input("Premi INVIO per giocare (u per uscire).")
+        answer = input("Premi INVIO per giocare o (u) per uscire.")
         if answer == "u":
             break
         balance += spin(balance)
