@@ -3,7 +3,7 @@ from icecream import ic
 
 NR_MAX_QUOTE = 3
 MAX_SCOMMESSA = 100
-MIN_SCOMMESSA = 1
+MIN_SCOMMESSA = 5
 
 # struttura ruota slotmachine 3 righe * 3 colonne
 ROWS = 3
