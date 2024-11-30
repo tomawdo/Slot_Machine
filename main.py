@@ -1,6 +1,4 @@
 import random
-from http.cookiejar import uppercase_escaped_char
-
 from icecream import ic
 
 NR_MAX_QUOTE = 3
